@@ -1,0 +1,131 @@
+/* Reset and base */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: hsl(220, 20%, 96%);
+    color: #333;
+    padding-top: 60px;
+}
+
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    color: yellow;
+    transform: scale(1.1);
+}
+
+
+/* Main */
+
+main {
+    padding: 20px;
+}
+
+
+/* Gallery Grid */
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-gallery article {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.grid-gallery img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.grid-gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Featured badge */
+
+.featured-badge {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+/* Contact Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Banner Animation */
+
+.banner {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+}

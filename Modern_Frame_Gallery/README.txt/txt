@@ -1,0 +1,19 @@
+Name: Shurvesh E G
+
+Implemented Features:
+- Static desktop site with 4 linked pages
+- Navigation menu on each page
+- Gallery grid using CSS Grid
+- Flexbox used for navigation
+- Embedded video (virtual tour)
+- Table with studio hours
+- CSS animation (banner)
+- Responsive image scaling on hover
+- Proper semantic HTML
+
+Known Issues:
+- None
+
+Tested On:
+- Google Chrome
+- Mozilla Firefox

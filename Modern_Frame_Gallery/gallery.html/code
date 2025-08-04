@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery - The Modern Frame</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Modern Frame</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="grid-gallery">
+        <article>
+            <img src="images/art1.jpg" alt="Art 1">
+            <!-- Insert image here -->
+            <h4>Light and Shadow</h4>
+            <p>By John Doe</p>
+        </article>
+        <article>
+            <img src="images/art2.jpg" alt="Art 2">
+            <!-- Insert image here -->
+            <h4>Abstract Dream</h4>
+            <p>By Jane Smith</p>
+        </article>
+        <article>
+            <img src="images/art3.jpg" alt="Art 3">
+            <!-- Insert image here -->
+            <h4>Geometry in Motion</h4>
+            <p>By Alex Ray</p>
+        </article>
+        <article>
+            <img src="images/art4.jpg" alt="Art 4">
+            <!-- Insert image here -->
+            <h4>Echoes</h4>
+            <p>By Lily Moore</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2025 The Modern Frame</p>
+    </footer>
+</body>
+
+</html>
